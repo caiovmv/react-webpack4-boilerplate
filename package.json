@@ -1,0 +1,51 @@
+{
+  "name": "react-webpack4-boilerplate",
+  "version": "1.0.0",
+  "description": "React + Webpack 4 Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot --progress --colors --inline",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiovmv/react-webpack4-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Caio Villela <villela.caio@gmail.com>",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/caiovmv/react-webpack4-boilerplate/issues"
+  },
+  "homepage": "https://github.com/caiovmv/react-webpack4-boilerplate#readme",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-react": "^7.8.2",
+    "html-loader": "*",
+    "html-webpack-plugin": "*",
+    "mini-css-extract-plugin": "*",
+    "prop-types": "^15.6.1",
+    "react": "*",
+    "react-dom": "^16.4.0",
+    "react-motion": "^0.5.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  },
+  "dependencies": {}
+}
